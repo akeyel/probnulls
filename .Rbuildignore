@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+LICENSE.txt
+README.md
+README.docx
+^doc$
+^Meta$
+codemeta.json
+.travis.yml
+^codecov\.yml$
+probnulls_builder.R

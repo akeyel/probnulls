@@ -1,0 +1,29 @@
+Package: probnulls
+Type: Package
+Title: Generate Probabilistic Null Models
+Version: 1.0.0
+Date: 2022-08-29
+Authors@R: c(person("Alexander", "Keyel", role = c("aut", "cre"),
+           email = "akeyel@albany.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0001-5256-6274")))
+Author: Alexander C Keyel <alexander.keyel@health.ny.gov>
+Maintainer: Alexander Keyel <akeyel@albany.edu>
+Description: Generate probabilistic null models for a set of locations, using data from a series of years.
+License: GPL-3
+URL: https://github.com/akeyel/probnulls
+BugReports: https://github.com/akeyel/probnulls/issues
+Language: en-US
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Depends:
+    R (>= 2.10)
+Imports:
+	scoringRules
+Suggests:
+    MASS,
+    knitr,
+    rmarkdown,
+    testthat (>= 2.1.0),
+    covr
+RoxygenNote: 7.1.2
